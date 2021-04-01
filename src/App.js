@@ -1,18 +1,24 @@
 import React from 'react';
 
+import Header from './components/Header.js';
+import Hero from './components/Hero.js';
+import Browse from './components/Browse.js';
+import Arrived from './components/Arrived.js';
+import Clients from './components/Clients.js';
+import AsideMenu from './components/AsideMenu.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <div className="max-w-md mx-auto flex p-6 bg-gray-100 mt-10 rounded-lg">
-      <div className="ml-6 pt-1">
-        <h1 className="text-2xl text-blue-700 leading-tight">
-          Tailwind an Create react app
-        </h1>
-        <p className="text-base text-gray-700 leading-normal">
-          Building apps together
-        </p>
-      </div>
-    </div>
+    <>
+    <Header />
+    <Hero />
+    <Browse />
+    <Arrived />
+    <Clients />
+    <AsideMenu />
+    <Footer />
+    </>
   );
 }
 
